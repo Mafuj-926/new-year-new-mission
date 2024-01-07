@@ -7,11 +7,13 @@ body{
     background-image: url('images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
 }
 .banner-text{
     text-align: center;
     color: #FFF;
     padding: 177px 344px;
+    border-radius: 16px;
 }
 /* welcome-part */
 .welcome-part{
@@ -20,4 +22,53 @@ body{
 }
 .red-color{
     color: #F00;
+}
+/* midnight-section */
+.midnight-section{
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.midnight-section img{
+    padding: 68px 238px 67px 90px;
+}
+.midnight-section-text-area{
+    padding: 125px 125px 140px 325px;
+    border-radius: 16px; 
+    
+} 
+.midnight-section-text-area h1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+}
+.midnight-section-text-area h5{
+    color: rgba(255, 255, 255, 0.80); 
+}
+.midnight-section-text-area button{
+    background: none;
+    border: none;
+    color: #FFF;
+}
+/* join-now-area */
+.join-now-area{
+    background-color: rgba(255, 0, 0, 0.10);
+    text-align: center;
+    padding: 100px 385px;
+    margin: 100px 140px;
+    border-radius: 16px;
+}
+.join-btn{
+    background: #F00;
+    border-radius: 8px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: white;
 }
