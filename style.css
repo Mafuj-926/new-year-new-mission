@@ -1,5 +1,8 @@
 body{
     font-family: 'Inter', sans-serif;
+     
+}
+header, main{
     margin: 50px 140px; 
 }
 section{
@@ -18,10 +21,22 @@ section{
     padding: 177px 344px;
     border-radius: 16px;
 }
+.banner-text h1{
+    font-size: 72px;
+    font-weight: 900px;
+}
 /* welcome-part */
 .welcome-part{
     text-align: center;
     margin: 100px 400px;
+}
+.welcome-part h1{
+    font-size: 88px;
+    font-weight: 700px;
+}
+.welcome-part h2{
+    font-size: 48px;
+    font-weight: 700px;
 }
 .red-color{
     color: #F00;
@@ -80,8 +95,12 @@ section{
     display: flex;
     justify-content: space-around;
 }
+.coming-soon-area h1{
+    font-size: 48px;
+    font-weight: 900px;
+}
 .coming-soon-left-text{
-    padding: 100px 100px 100px 140px;
+    padding: 100px 0px 100px 140px;
 }
 .coming-soon-img{
     border-radius: 463px;
@@ -90,9 +109,6 @@ section{
 }
 .coming-soon-right-text{
     padding: 100px 140px 0 100px;
-}
-.coming-soon-right-text img{
-    margin-top: 60px;
 }
 /* Holiday-Area */
 .holiday-area-text{
@@ -117,7 +133,7 @@ section{
     margin: 140px 429px 59px 886px;
 }
 .right-img{
-    margin: 5px 144px 0 102px;
+    margin: 5px 144px 0 94px;
 }
 /* Gifts Area */
 .gifts{
@@ -149,4 +165,60 @@ section{
 .bottom-gift div:hover{
     filter: grayscale(1);
     transform: scale(1.03);
+}
+.Subscribe-area{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 20px 140px;
+    padding: 80px 212px; 
+    
+}
+.email{
+    width: 648px;
+    height: 72px; 
+    border-radius: 50px 0 0 50px;  
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+}
+.subscribe-btn{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    width: 210px;
+    height: 72px;
+}
+footer{
+    background-color: #070211;
+    padding: 120px 290px;
+}
+.ftr-toptext{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin-top: 5px;
+}
+.ftr-toptext a{
+    text-decoration: none;
+    color: #FFF;
+}
+.line{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.social-site{
+    text-align: center;
+}
+.social-site img{
+    padding: 48px 12px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 50px -20px 120px 140px;
 }
