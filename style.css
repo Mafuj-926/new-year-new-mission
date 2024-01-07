@@ -1,0 +1,23 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 50px 140px; 
+}
+/* Banner Part */
+.banner{
+    background-image: url('images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text{
+    text-align: center;
+    color: #FFF;
+    padding: 177px 344px;
+}
+/* welcome-part */
+.welcome-part{
+    text-align: center;
+    margin: 100px 400px;
+}
+.red-color{
+    color: #F00;
+}
