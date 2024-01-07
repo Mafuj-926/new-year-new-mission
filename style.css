@@ -119,3 +119,34 @@ section{
 .right-img{
     margin: 5px 144px 0 102px;
 }
+/* Gifts Area */
+.gifts{
+    padding: 0 564px 48px 140px;
+}
+.gifts h1{
+    font-size: 48px;
+    font-weight: 900px;
+}
+.top-gift{
+    display: flex;
+    justify-content: space-between;
+}
+.top-gift div{
+    margin: 10px;
+    transition: 400ms;
+}
+.top-gift div:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.bottom-gift{
+    display: flex;
+}
+.bottom-gift div{
+    margin: 0 10px;
+    transition: 400ms;
+}
+.bottom-gift div:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
