@@ -193,13 +193,14 @@ section{
 }
 footer{
     background-color: #070211;
-    padding: 120px 290px;
+    /* padding: 120px 290px; */
 }
 .ftr-toptext{
     display: flex;
     justify-content: space-between;
     color: #FFF;
-    margin-top: 5px;
+    font-size: 24px;
+    padding: 120px 400px 50px 300px;
 }
 .ftr-toptext a{
     text-decoration: none;
@@ -209,6 +210,7 @@ footer{
     width: 1320px;
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
+    margin: 0 140px 0 300px;
 }
 .social-site{
     text-align: center;
@@ -220,5 +222,5 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #FFF;
-    padding: 50px -20px 120px 140px;
+    padding: 40px 270px 120px 300px;
 }
